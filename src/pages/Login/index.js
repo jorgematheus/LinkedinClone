@@ -25,6 +25,10 @@ export default function Login() {
                 <Form>
                     <input type="text" placeholder="Usename" />
                     <InputPassword />
+                    <div className="container-remember">
+                        <input type="checkbox" id="remember" name="remember" />
+                        <label htmlFor="remember">Remember me.Learn More</label>
+                    </div>
                 </Form>
             </Main>
             <Footer />

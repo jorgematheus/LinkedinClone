@@ -50,4 +50,14 @@ export const Form = styled.form`
         width: 400px;
         height: 53px;
     }
+
+    .container-remember {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+
+        input {
+            width: 15px;
+        }
+    }
 `;
