@@ -69,7 +69,7 @@ export const Form = styled.form`
     }
 
     .button-login {
-        padding: 10px;
+        padding: 17px;
         margin: 25px;
         width: 400px;
         height: 53px;
@@ -79,6 +79,9 @@ export const Form = styled.form`
         border: none;
         font-weight: bold;
         font-size: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     a {
@@ -93,7 +96,7 @@ export const Form = styled.form`
         padding: 7px;
     }
 
-    a:hover:not(:nth-child(1)) {
+    a:hover:not(:nth-child(1), .button-login) {
         background: rgba(152, 216, 244, 0.25);
     }
 `;

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Header from '../../components/Login/Header/index';
 import Footer from '../../components/Login/Footer/index';
 import { Main, Logo, Title, Form } from './styles';
@@ -29,10 +30,10 @@ export default function Login() {
                         <input type="checkbox" id="remember" name="remember" />
                         <label htmlFor="remember">Remember me.Learn More</label>
                     </div>
-                    <button type="button" className="button-login">
+                    <Link to="/home" className="button-login">
                         Sign in
-                    </button>
-                    <a href="#">Forgot password?</a>
+                    </Link>
+                    <Link to="/#">Forgot password? </Link>
                     <p>
                         New to Linkedin? <a href="#">Join now</a>
                     </p>
